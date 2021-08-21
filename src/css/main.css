@@ -175,6 +175,14 @@ body{
   border-radius: 20px;
 }
 
+.error{
+  text-align: center;
+  color: red;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
 @media Screen and (max-width:640px) {
   .displaytodos ul{
     display: flex;

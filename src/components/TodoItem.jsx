@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { AiFillEdit } from "react-icons/ai";
-import { IoCheckmarkDoneSharp } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
+import { FiCheck } from 'react-icons/fi'
 import { motion } from "framer-motion";
 
 const TodoItem = (props) => {
@@ -53,7 +53,7 @@ const TodoItem = (props) => {
             style={{ color: "green" }}
             onClick={() => completeTodo(item.id)}
           >
-            <IoCheckmarkDoneSharp />
+            <FiCheck />
           </motion.button>
         )}
         <motion.button
